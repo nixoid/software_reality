@@ -1,0 +1,15 @@
+@startuml
+participant "Human Mind (Alice)" as Alice
+participant "Physical Reality" as Reality
+participant "Human Mind (Bob)" as Bob
+
+Alice -> Reality : action
+note over Reality : computation of the interaction
+Reality -> Alice : result
+Reality -> Bob : result
+note over Alice : rendering
+note over Alice : analysis
+note over Bob : rendering
+note over Bob : analysis
+@enduml
+
